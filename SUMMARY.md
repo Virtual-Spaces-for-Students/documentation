@@ -3,7 +3,7 @@
 * [Welcome!](README.md)
 * [Quick Start](quick-start.md)
 
-## Reference
+## ⚙ API
 
-* [API Reference](reference/api-reference/README.md)
-  * [Users](reference/api-reference/users.md)
+* [API Reference](api/api-reference/README.md)
+  * [Page 1](api/api-reference/page-1.md)

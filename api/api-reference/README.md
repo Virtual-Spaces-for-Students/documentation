@@ -6,6 +6,6 @@ Dive into the specifics of each API endpoint by checking out our complete docume
 
 Everything related to users:
 
-{% content-ref url="users.md" %}
-[users.md](users.md)
+{% content-ref url="broken-reference" %}
+[Broken link](broken-reference)
 {% endcontent-ref %}
