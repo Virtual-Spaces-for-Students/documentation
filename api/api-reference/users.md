@@ -26,3 +26,18 @@ mot de passe de l'utilisateur
 {% endswagger-response %}
 {% endswagger %}
 
+
+{% swagger method="get" path="/users/logout" baseUrl="http://localhost:3010" summary="Logout" %}
+{% swagger-description %}
+
+{% endswagger-description %}
+
+
+{% swagger-response status="201: OK" description="" %}
+{% endswagger-response %}
+
+{% swagger-response status="403" description="" %}
+
+{% endswagger-response %}
+{% endswagger %}
+
