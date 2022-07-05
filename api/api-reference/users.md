@@ -10,7 +10,7 @@ email/pseudonyme de l'utilisateur
 {% endswagger-parameter %}
 
 {% swagger-parameter in="body" name="password" required="true" %}
-mot de passe de l'utilisateur 
+mot de passe de l'utilisateur
 {% endswagger-parameter %}
 
 {% swagger-response status="200: OK" description="Identifiant valides" %}
@@ -26,18 +26,16 @@ mot de passe de l'utilisateur
 {% endswagger-response %}
 {% endswagger %}
 
-
 {% swagger method="get" path="/users/logout" baseUrl="http://localhost:3010" summary="Logout" %}
 {% swagger-description %}
 
 {% endswagger-description %}
 
+{% swagger-response status="204: No Content" description="" %}
 
-{% swagger-response status="201: OK" description="" %}
 {% endswagger-response %}
 
-{% swagger-response status="403" description="" %}
+{% swagger-response status="403: Forbidden" description="" %}
 
 {% endswagger-response %}
 {% endswagger %}
-
