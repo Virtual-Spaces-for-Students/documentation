@@ -6,4 +6,4 @@
 ## ⚙ API
 
 * [API Reference](api/api-reference/README.md)
-  * [Page 1](api/api-reference/page-1.md)
+  * [Users](api/api-reference/users.md)
