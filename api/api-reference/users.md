@@ -22,11 +22,7 @@ mot de passe de l'utilisateur
 {% endswagger-response %}
 
 {% swagger-response status="401: Unauthorized" description="Identifient invalides" %}
-```javascript
-{
-    // Response
-}
-```
+
 {% endswagger-response %}
 {% endswagger %}
 
