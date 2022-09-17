@@ -6,7 +6,11 @@
 {% endswagger-description %}
 {% endswagger %}
 
-## Change d'état
+{% swagger method="delete" path="/vm" baseUrl="" summary="*WIP* Supprimer une VM" %}
+{% swagger-description %}
+
+{% endswagger-description %}
+{% endswagger %}
 
 {% swagger method="patch" path="/vm/:id/start" baseUrl="http://172.18.8.2:8080" summary="*WIP* Démarrer la VM" %}
 {% swagger-description %}
