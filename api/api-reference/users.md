@@ -1,6 +1,6 @@
 # 👤 Users
 
-{% swagger method="get" path="/users/@me" baseUrl="http://localhost:3010" summary="Get User" %}
+{% swagger method="get" path="/users/@me" baseUrl="http://172.18.8.2:8080" summary="*WIP* Get User" %}
 {% swagger-description %}
 
 {% endswagger-description %}
@@ -22,7 +22,7 @@
 {% endswagger-response %}
 {% endswagger %}
 
-{% swagger method="get" path="/users/@me/vms" baseUrl="http://localhost:3010" summary="Get User VMS" %}
+{% swagger method="get" path="/users/@me/vms" baseUrl="http://172.18.8.2:8080" summary="*WIP* Get User VMS" %}
 {% swagger-description %}
 
 {% endswagger-description %}

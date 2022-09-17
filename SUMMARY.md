@@ -8,6 +8,7 @@
 * [API Reference](reference/api-reference/README.md)
   * [🔐 Auth](api/api-reference/auth.md)
   * [👤 Users](api/api-reference/users.md)
+  * [VM](api/api-reference/vm.md)
 
 ## Projet
 
