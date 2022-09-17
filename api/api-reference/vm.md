@@ -14,19 +14,15 @@
 {% endswagger-description %}
 
 {% swagger-response status="204: No Content" description="Action effectué" %}
-```javascript
-{
-    // Response
-}
-```
+
 {% endswagger-response %}
 
-{% swagger-response status="400: Bad Request" description="VM introuvable" %}
-```javascript
-{
-    // Response
-}
-```
+{% swagger-response status="400: Bad Request" description="Déjà dans cet état" %}
+
+{% endswagger-response %}
+
+{% swagger-response status="404: Not Found" description="VM introuvable" %}
+
 {% endswagger-response %}
 {% endswagger %}
 
