@@ -6,9 +6,27 @@
 {% endswagger-description %}
 {% endswagger %}
 
-### Change d'état
+## Change d'état
 
 {% swagger method="patch" path="/vm/{id}/start" baseUrl="http://172.18.8.2:8080" summary="*WIP* Démarrer la VM" %}
+{% swagger-description %}
+
+{% endswagger-description %}
+
+{% swagger-response status="204: No Content" description="Action effectué" %}
+
+{% endswagger-response %}
+
+{% swagger-response status="400: Bad Request" description="Déjà dans cet état" %}
+
+{% endswagger-response %}
+
+{% swagger-response status="404: Not Found" description="VM introuvable" %}
+
+{% endswagger-response %}
+{% endswagger %}
+
+{% swagger method="patch" path="/vm/{id}/restart" baseUrl="http://172.18.8.2:8080" summary="*WIP* Redémarrer la VM" %}
 {% swagger-description %}
 
 {% endswagger-description %}
@@ -32,40 +50,14 @@
 {% endswagger-description %}
 
 {% swagger-response status="204: No Content" description="Action effectué" %}
-```javascript
-{
-    // Response
-}
-```
+
 {% endswagger-response %}
 
-{% swagger-response status="400: Bad Request" description="VM introuvable" %}
-```javascript
-{
-    // Response
-}
-```
-{% endswagger-response %}
-{% endswagger %}
+{% swagger-response status="400: Bad Request" description="Déjà dans cet état" %}
 
-{% swagger method="patch" path="/vm/{id}/restart" baseUrl="http://172.18.8.2:8080" summary="*WIP* Redémarrer la VM" %}
-{% swagger-description %}
-
-{% endswagger-description %}
-
-{% swagger-response status="204: No Content" description="Action effectué" %}
-```javascript
-{
-    // Response
-}
-```
 {% endswagger-response %}
 
-{% swagger-response status="400: Bad Request" description="VM introuvable" %}
-```javascript
-{
-    // Response
-}
-```
+{% swagger-response status="404: Not Found" description="VM introuvable" %}
+
 {% endswagger-response %}
 {% endswagger %}
